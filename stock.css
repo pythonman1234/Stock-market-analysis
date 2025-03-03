@@ -1,0 +1,97 @@
+body {
+  background-color: beige;
+  scrollbar-color: black;
+  scroll-behavior: none;
+}
+.container {
+  padding: 0.7rem;
+  max-width: 650px;
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+  margin: auto;
+}
+.nav {
+  display: block;
+  padding: 0.5rem;
+  text-align: center;
+  margin-top: 0;
+}
+.inline {
+  display: inline;
+  list-style: none;
+}
+.navlinks {
+  text-decoration: none;
+  padding: 0.8rem;
+
+  font-size: 28px;
+  color: silver;
+}
+.links {
+  text-decoration: none;
+  padding: 1rem;
+
+  font-size: 38px;
+  color: silver;
+}
+
+.container h1 {
+  color: silver;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.container label {
+  font-size: 25px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.container input {
+  border: 2px solid goldenrod;
+  padding: 0.5rem;
+  border-radius: 20px;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  width: 20%;
+}
+.price-input {
+  font-family: cursive;
+  font-size: medium;
+  font-weight: bold;
+  padding: 0.6rem;
+  text-align: center;
+}
+#check-btn {
+  border: 2px solid gold;
+  width: 400px;
+  padding: 1rem;
+  border-radius: 20px;
+  margin-bottom: 0;
+  text-align: center;
+  background-color: bisque;
+  color: black;
+  cursor: pointer;
+  font-size: larger;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#result {
+  display: block;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  color: silver;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  padding: 1.5rem;
+  border-radius: 20px;
+
+  font-weight: 500;
+}
